@@ -1,0 +1,950 @@
+.donate-onetime-data {
+  background-color: #fff7f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.donate-onetime-data .div {
+  background-color: #fff7f0;
+  overflow: hidden;
+  width: 1440px;
+  height: 2203px;
+  position: relative;
+}
+
+.donate-onetime-data .overlap {
+  position: absolute;
+  width: 2001px;
+  height: 1453px;
+  top: 1px;
+  left: -284px;
+}
+
+.donate-onetime-data .shape {
+  position: absolute;
+  width: 2001px;
+  height: 1044px;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .rectangle {
+  position: absolute;
+  width: 1350px;
+  height: 1234px;
+  top: 219px;
+  left: 328px;
+  background-color: #fffefe;
+  border-radius: 20px;
+}
+
+.donate-onetime-data .text-wrapper {
+  position: absolute;
+  top: 324px;
+  left: 579px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #9b7a7a;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .text-wrapper-2 {
+  position: absolute;
+  top: 323px;
+  left: 1450px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #9b7a7a;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .img {
+  position: absolute;
+  width: 322px;
+  height: 147px;
+  top: 145px;
+  left: 1402px;
+}
+
+.donate-onetime-data .text-wrapper-3 {
+  position: absolute;
+  width: 384px;
+  height: 91px;
+  top: 757px;
+  left: 466px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000a6;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.donate-onetime-data .frame {
+  display: flex;
+  flex-direction: column;
+  width: 232px;
+  height: 206px;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 899px;
+  left: 462px;
+}
+
+.donate-onetime-data .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  height: 91px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.donate-onetime-data .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  height: 91px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 8.75px;
+  line-height: normal;
+}
+
+.donate-onetime-data .vector {
+  position: absolute;
+  width: 1242px;
+  height: 1px;
+  top: 866px;
+  left: 378px;
+}
+
+.donate-onetime-data .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 886px;
+  height: 192px;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 908px;
+  left: 700px;
+}
+
+.donate-onetime-data .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 78px;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 80px;
+}
+
+.donate-onetime-data .text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 16px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 20px;
+  border: 2.5px solid;
+  border-color: #000000;
+  opacity: 0.5;
+}
+
+.donate-onetime-data .state-layer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.donate-onetime-data .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 22px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.donate-onetime-data .label-text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.donate-onetime-data .label-text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #616161;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .element {
+  position: absolute;
+  width: 167px;
+  height: 159px;
+  top: 270px;
+  left: 380px;
+  object-fit: cover;
+}
+
+.donate-onetime-data .tick-box {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 316px;
+  left: 1384px;
+}
+
+.donate-onetime-data .frame-3 {
+  position: absolute;
+  width: 804px;
+  height: 193px;
+  top: 446px;
+  left: 597px;
+}
+
+.donate-onetime-data .div-2 {
+  position: absolute;
+  width: 249px;
+  height: 193px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.donate-onetime-data .property-default {
+  position: relative;
+  width: 142px;
+  height: 147px;
+  top: 19px;
+  left: 47px;
+  background-color: #bfbfbf;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.donate-onetime-data .line {
+  position: absolute;
+  width: 202px;
+  height: 167px;
+  top: -10px;
+  left: -10px;
+}
+
+.donate-onetime-data .text-wrapper-6 {
+  position: absolute;
+  width: 138px;
+  height: 33px;
+  top: 167px;
+  left: 2px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .coins {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 42px;
+  left: 68px;
+}
+
+.donate-onetime-data .overlap-group {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 19px;
+  left: 252px;
+}
+
+.donate-onetime-data .dm-process {
+  width: 142px;
+  height: 147px;
+  background-color: #ebe1be;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .dm {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .text-wrapper-7 {
+  position: absolute;
+  width: 129px;
+  height: 29px;
+  top: 170px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .documents {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 26px;
+  left: 20px;
+}
+
+.donate-onetime-data .overlap-2 {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 19px;
+  left: 457px;
+}
+
+.donate-onetime-data .dm-process-2 {
+  width: 142px;
+  height: 147px;
+  background-color: #bfbfbf;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .check-file {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 27px;
+  left: 20px;
+}
+
+.donate-onetime-data .overlap-3 {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 21px;
+  left: 662px;
+}
+
+.donate-onetime-data .div-wrapper {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/dm-process1.svg);
+  background-size: 100% 100%;
+}
+
+.donate-onetime-data .checkmark {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 21px;
+  left: 20px;
+}
+
+.donate-onetime-data .male-user {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 754px;
+  left: 378px;
+}
+
+.donate-onetime-data .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 87px;
+  height: 195px;
+  align-items: flex-end;
+  gap: 31px;
+  position: absolute;
+  top: 908px;
+  left: 378px;
+}
+
+.donate-onetime-data .heart-with-dog-paw {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 82px;
+}
+
+.donate-onetime-data .button-next {
+  display: inline-flex;
+  height: 64px;
+  align-items: flex-start;
+  position: absolute;
+  top: 1199px;
+  left: 945px;
+}
+
+.donate-onetime-data .button-detail {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.donate-onetime-data .button-detail-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fdd4a8e6;
+  border-radius: 20px;
+}
+
+.donate-onetime-data .text-wrapper-8 {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959e0;
+  font-size: 36px;
+  letter-spacing: 5.4px;
+  line-height: normal;
+}
+
+.donate-onetime-data .button-detail-wrapper {
+  left: 1404px;
+  display: flex;
+  width: 231px;
+  align-items: flex-start;
+  position: absolute;
+  top: 1299px;
+}
+
+.donate-onetime-data .button-detail-3 {
+  display: flex;
+  width: 231px;
+  height: 87px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.donate-onetime-data .button-detail-4 {
+  display: flex;
+  width: 231px;
+  height: 87px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #fdd4a8e6;
+  border-radius: 20px;
+}
+
+.donate-onetime-data .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959e0;
+  font-size: 36px;
+  letter-spacing: 5.4px;
+  line-height: normal;
+}
+
+.donate-onetime-data .button-next-2 {
+  left: 372px;
+  display: flex;
+  width: 231px;
+  align-items: flex-start;
+  position: absolute;
+  top: 1299px;
+}
+
+.donate-onetime-data .text-wrapper-10 {
+  position: absolute;
+  width: 993px;
+  top: 1119px;
+  left: 703px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.donate-onetime-data .nav {
+  position: absolute;
+  width: 1440px;
+  height: 181px;
+  top: 0;
+  left: 284px;
+  background-color: #fff7f0;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.donate-onetime-data .overlap-4 {
+  position: absolute;
+  width: 1238px;
+  height: 146px;
+  top: 14px;
+  left: 29px;
+}
+
+.donate-onetime-data .overlap-5 {
+  position: absolute;
+  width: 1238px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .line-2 {
+  position: absolute;
+  width: 870px;
+  height: 94px;
+  top: 23px;
+  left: 368px;
+}
+
+.donate-onetime-data .AR-VR-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 1074px;
+}
+
+.donate-onetime-data .AR-VR {
+  position: absolute;
+  width: 112px;
+  height: 83px;
+  top: 5px;
+  left: 2px;
+}
+
+.donate-onetime-data .map-jpg {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 24px;
+  left: 723px;
+}
+
+.donate-onetime-data .donate-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 891px;
+  overflow: hidden;
+}
+
+.donate-onetime-data .donate {
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  top: 5px;
+  left: -1px;
+}
+
+.donate-onetime-data .chat-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 523px;
+}
+
+.donate-onetime-data .chat {
+  position: absolute;
+  width: 105px;
+  height: 75px;
+  top: 9px;
+  left: 5px;
+}
+
+.donate-onetime-data .vector-2 {
+  position: absolute;
+  width: 1px;
+  height: 94px;
+  top: 23px;
+  left: 412px;
+}
+
+.donate-onetime-data .flexcontainer {
+  top: 23px;
+  left: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+}
+
+.donate-onetime-data .text-i {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #4c3c3c;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3.15px;
+  line-height: 45px;
+}
+
+.donate-onetime-data .span {
+  letter-spacing: 1.1px;
+}
+
+.donate-onetime-data .logo {
+  position: absolute;
+  width: 157px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.donate-onetime-data .AR-VR-2 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 1096px;
+}
+
+.donate-onetime-data .text-wrapper-11 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.donate-onetime-data .view {
+  position: absolute;
+  width: 51px;
+  height: 29px;
+  top: 117px;
+  left: 931px;
+}
+
+.donate-onetime-data .text-wrapper-12 {
+  position: absolute;
+  width: 51px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.donate-onetime-data .view-2 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 723px;
+}
+
+.donate-onetime-data .view-3 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 537px;
+}
+
+.donate-onetime-data .user-jpg {
+  position: absolute;
+  width: 83px;
+  height: 93px;
+  top: 37px;
+  left: 1301px;
+}
+
+.donate-onetime-data .view-4 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 131px;
+  left: 1301px;
+}
+
+.donate-onetime-data .overlap-6 {
+  position: absolute;
+  width: 2304px;
+  height: 684px;
+  top: 1527px;
+  left: -399px;
+}
+
+.donate-onetime-data .shape-2 {
+  position: absolute;
+  width: 2290px;
+  height: 681px;
+  top: 3px;
+  left: 0;
+}
+
+.donate-onetime-data .footer {
+  position: absolute;
+  width: 2290px;
+  height: 681px;
+  top: 0;
+  left: 14px;
+  background-color: transparent;
+}
+
+.donate-onetime-data .p {
+  position: absolute;
+  top: 603px;
+  left: 824px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #484848;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.donate-onetime-data .overlap-7 {
+  position: absolute;
+  width: 533px;
+  height: 78px;
+  top: 442px;
+  left: 492px;
+  background-image: url(./img/rectangle-2-1.svg);
+  background-size: 100% 100%;
+}
+
+.donate-onetime-data .text-wrapper-13 {
+  position: absolute;
+  top: 20px;
+  left: 89px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #595959;
+  font-size: 28px;
+  letter-spacing: 2.24px;
+  line-height: normal;
+}
+
+.donate-onetime-data .mail {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 15px;
+  left: 24px;
+}
+
+.donate-onetime-data .AR-VR-3 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 335px;
+  left: 1456px;
+}
+
+.donate-onetime-data .text-wrapper-14 {
+  position: absolute;
+  width: 212px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.donate-onetime-data .AR-VR-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 408px;
+  left: 1456px;
+}
+
+.donate-onetime-data .view-5 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1456px;
+}
+
+.donate-onetime-data .quick-links {
+  position: absolute;
+  width: 287px;
+  top: 179px;
+  left: 1419px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #88746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.donate-onetime-data .view-6 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 480px;
+  left: 1113px;
+}
+
+.donate-onetime-data .view-7 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 407px;
+  left: 1112px;
+}
+
+.donate-onetime-data .div-wrapper-2 {
+  position: absolute;
+  width: 265px;
+  height: 44px;
+  top: 335px;
+  left: 1087px;
+}
+
+.donate-onetime-data .text-wrapper-15 {
+  position: absolute;
+  width: 265px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.donate-onetime-data .view-8 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1113px;
+}
+
+.donate-onetime-data .services {
+  position: absolute;
+  width: 175px;
+  top: 179px;
+  left: 1131px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #87746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.donate-onetime-data .overlap-8 {
+  position: absolute;
+  width: 390px;
+  height: 142px;
+  top: 230px;
+  left: 492px;
+}
+
+.donate-onetime-data .flexcontainer-i {
+  top: 35px;
+  left: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+}
+
+.donate-onetime-data .vector-3 {
+  position: absolute;
+  width: 1242px;
+  height: 1px;
+  top: 582px;
+  left: 466px;
+}

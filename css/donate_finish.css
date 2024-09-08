@@ -1,0 +1,748 @@
+.record-finish {
+  background-color: #fff7f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.record-finish .div {
+  background-color: #fff7f0;
+  overflow: hidden;
+  width: 1440px;
+  height: 2506px;
+  position: relative;
+}
+
+.record-finish .overlap {
+  position: absolute;
+  width: 2312px;
+  height: 694px;
+  top: 1828px;
+  left: -392px;
+}
+
+.record-finish .shape {
+  position: absolute;
+  width: 2290px;
+  height: 681px;
+  top: 13px;
+  left: 22px;
+}
+
+.record-finish .footer {
+  position: absolute;
+  width: 2290px;
+  height: 681px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.record-finish .text-wrapper {
+  position: absolute;
+  top: 603px;
+  left: 824px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #484848;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.record-finish .overlap-group {
+  position: absolute;
+  width: 533px;
+  height: 78px;
+  top: 442px;
+  left: 492px;
+  background-image: url(./img/rectangle-2-1.svg);
+  background-size: 100% 100%;
+}
+
+.record-finish .text-wrapper-2 {
+  position: absolute;
+  top: 20px;
+  left: 89px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #595959;
+  font-size: 28px;
+  letter-spacing: 2.24px;
+  line-height: normal;
+}
+
+.record-finish .mail {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 15px;
+  left: 24px;
+}
+
+.record-finish .AR-VR {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 335px;
+  left: 1456px;
+}
+
+.record-finish .text-wrapper-3 {
+  position: absolute;
+  width: 212px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.record-finish .AR-VR-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 408px;
+  left: 1456px;
+}
+
+.record-finish .view {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1456px;
+}
+
+.record-finish .quick-links {
+  position: absolute;
+  width: 287px;
+  top: 179px;
+  left: 1419px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #88746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.record-finish .div-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 480px;
+  left: 1113px;
+}
+
+.record-finish .view-2 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 407px;
+  left: 1112px;
+}
+
+.record-finish .div-wrapper-2 {
+  position: absolute;
+  width: 265px;
+  height: 44px;
+  top: 335px;
+  left: 1087px;
+}
+
+.record-finish .text-wrapper-4 {
+  position: absolute;
+  width: 265px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.record-finish .view-3 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1113px;
+}
+
+.record-finish .services {
+  position: absolute;
+  width: 175px;
+  top: 179px;
+  left: 1131px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #87746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.record-finish .overlap-2 {
+  position: absolute;
+  width: 390px;
+  height: 142px;
+  top: 230px;
+  left: 492px;
+}
+
+.record-finish .flexcontainer {
+  top: 35px;
+  left: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+}
+
+.record-finish .text-i {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #4c3c3c;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3.15px;
+  line-height: 45px;
+}
+
+.record-finish .span {
+  letter-spacing: 1.1px;
+}
+
+.record-finish .logo {
+  position: absolute;
+  width: 157px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.record-finish .vector {
+  position: absolute;
+  width: 1242px;
+  height: 1px;
+  top: 582px;
+  left: 466px;
+}
+
+.record-finish .text-wrapper-5 {
+  position: absolute;
+  top: 241px;
+  left: 600px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #928b85;
+  font-size: 60px;
+  letter-spacing: 4.8px;
+  line-height: normal;
+}
+
+.record-finish .group {
+  position: absolute;
+  width: 1221px;
+  height: 1406px;
+  top: 361px;
+  left: 173px;
+}
+
+.record-finish .overlap-3 {
+  position: relative;
+  width: 1201px;
+  height: 1406px;
+}
+
+.record-finish .rectangle {
+  position: absolute;
+  width: 1098px;
+  height: 1260px;
+  top: 0;
+  left: 0;
+  background-color: #fffbfb;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #b8a58f;
+}
+
+.record-finish .dm-process {
+  position: absolute;
+  width: 249px;
+  height: 193px;
+  top: 57px;
+  left: 128px;
+  border-radius: 5px;
+}
+
+.record-finish .property-default {
+  position: relative;
+  width: 142px;
+  height: 147px;
+  top: 19px;
+  left: 47px;
+  background-color: #bfbfbf;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.record-finish .check-file-wrapper {
+  position: absolute;
+  width: 202px;
+  height: 167px;
+  top: -10px;
+  left: -10px;
+  background-image: url(./img/line1-2.png);
+  background-size: 100% 100%;
+}
+
+.record-finish .check-file {
+  position: absolute;
+  width: 89px;
+  height: 88px;
+  top: 40px;
+  left: 40px;
+  object-fit: cover;
+}
+
+.record-finish .text-wrapper-6 {
+  position: absolute;
+  width: 138px;
+  height: 33px;
+  top: 167px;
+  left: 2px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.record-finish .dm-process-2 {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 76px;
+  left: 380px;
+  background-image: url(./img/dm-process1.svg);
+  background-size: 100% 100%;
+}
+
+.record-finish .text-wrapper-7 {
+  width: 129px;
+  height: 29px;
+  top: 170px;
+  left: 8px;
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .dm-process-3 {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 76px;
+  left: 585px;
+  background-color: #bfbfbf;
+}
+
+.record-finish .line {
+  position: absolute;
+  width: 202px;
+  height: 167px;
+  top: -10px;
+  left: -10px;
+}
+
+.record-finish .dm-process-4 {
+  position: absolute;
+  width: 142px;
+  height: 147px;
+  top: 78px;
+  left: 790px;
+  background-image: url(./img/dm-process1-2.svg);
+  background-size: 100% 100%;
+}
+
+.record-finish .checkmark {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  top: 110px;
+  left: 826px;
+  object-fit: cover;
+}
+
+.record-finish .documents {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  top: 110px;
+  left: 410px;
+  object-fit: cover;
+}
+
+.record-finish .text-wrapper-8 {
+  width: 618px;
+  top: 440px;
+  left: 230px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-9 {
+  width: 618px;
+  top: 630px;
+  left: 165px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-10 {
+  width: 618px;
+  top: 352px;
+  left: 156px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-11 {
+  width: 645px;
+  top: 522px;
+  left: 233px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-12 {
+  width: 429px;
+  top: 800px;
+  left: 239px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-13 {
+  width: 300px;
+  top: 882px;
+  left: 240px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-14 {
+  width: 665px;
+  top: 1127px;
+  left: 240px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-15 {
+  width: 418px;
+  top: 1046px;
+  left: 239px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-16 {
+  width: 745px;
+  top: 964px;
+  left: 242px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .text-wrapper-17 {
+  width: 213px;
+  top: 718px;
+  left: 240px;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 3.2px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  line-height: normal;
+}
+
+.record-finish .image {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  top: 103px;
+  left: 609px;
+  object-fit: cover;
+}
+
+.record-finish .approved {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 1166px;
+  left: 961px;
+  object-fit: cover;
+}
+
+.record-finish .nav {
+  position: absolute;
+  width: 1440px;
+  height: 181px;
+  top: 0;
+  left: 2px;
+  background-color: #fff7f0;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.record-finish .overlap-4 {
+  position: absolute;
+  width: 1238px;
+  height: 146px;
+  top: 14px;
+  left: 29px;
+}
+
+.record-finish .overlap-5 {
+  position: absolute;
+  width: 1238px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.record-finish .img {
+  position: absolute;
+  width: 870px;
+  height: 94px;
+  top: 23px;
+  left: 368px;
+}
+
+.record-finish .AR-VR-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 1074px;
+}
+
+.record-finish .AR-VR-2 {
+  position: absolute;
+  width: 112px;
+  height: 83px;
+  top: 5px;
+  left: 2px;
+}
+
+.record-finish .map-jpg {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 24px;
+  left: 723px;
+}
+
+.record-finish .donate-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 891px;
+  overflow: hidden;
+}
+
+.record-finish .donate {
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  top: 5px;
+  left: -1px;
+}
+
+.record-finish .chat-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 523px;
+}
+
+.record-finish .chat {
+  position: absolute;
+  width: 105px;
+  height: 75px;
+  top: 9px;
+  left: 5px;
+}
+
+.record-finish .vector-2 {
+  position: absolute;
+  width: 1px;
+  height: 94px;
+  top: 23px;
+  left: 412px;
+}
+
+.record-finish .flexcontainer-i {
+  top: 23px;
+  left: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+}
+
+.record-finish .AR-VR-3 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 1096px;
+}
+
+.record-finish .text-wrapper-18 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.record-finish .view-4 {
+  position: absolute;
+  width: 51px;
+  height: 29px;
+  top: 117px;
+  left: 931px;
+}
+
+.record-finish .text-wrapper-19 {
+  position: absolute;
+  width: 51px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.record-finish .view-5 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 723px;
+}
+
+.record-finish .view-6 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 537px;
+}
+
+.record-finish .user-jpg {
+  position: absolute;
+  width: 83px;
+  height: 93px;
+  top: 37px;
+  left: 1301px;
+}
+
+.record-finish .view-7 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 131px;
+  left: 1301px;
+}

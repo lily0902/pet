@@ -1,0 +1,410 @@
+.map{
+  width: 3400px;
+}
+
+.surface-pro {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.surface-pro .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2961px;
+  position: relative;
+}
+
+.surface-pro .overlap {
+  position: absolute;
+  width: 3400px;
+  height: 3400px;
+  top: -439px;
+  left: -1072px;
+  background-image: url(./img/basemap-image.png);
+  background-size: 100% 100%;
+}
+
+.surface-pro .location-undefined {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 1569px;
+  left: 1685px;
+}
+
+.surface-pro .img {
+  top: 985px;
+  left: 1964px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.surface-pro .location-undefined-2 {
+  top: 1496px;
+  left: 2188px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.surface-pro .location-undefined-3 {
+  top: 1791px;
+  left: 2148px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.surface-pro .location-undefined-4 {
+  top: 1300px;
+  left: 1947px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.surface-pro .vector {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 2651px;
+  left: 1277px;
+}
+
+.surface-pro .rectangle {
+  position: fixed;
+  width: 1440px;
+  height: 169px;
+  top: -6px;
+  left: 0;
+  background-color: #fdf3e9;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.surface-pro .group {
+  position: fixed;
+  width: 1440px;
+  height: 329px;
+  top: 0;
+  left: 0;
+}
+
+.surface-pro .view {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 267px;
+  left: 1066px;
+}
+
+.surface-pro .element {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffb568;
+  border-radius: 25px;
+}
+
+.surface-pro .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.surface-pro .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #8d5b26;
+  border-radius: 25px;
+}
+
+.surface-pro .element-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ff3131;
+  border-radius: 25px;
+}
+
+.surface-pro .frame {
+  position: absolute;
+  width: 1440px;
+  height: 90px;
+  top: 163px;
+  left: 0;
+  background-color: #fdf3e9;
+}
+
+.surface-pro .p {
+  position: absolute;
+  top: 23px;
+  left: 650px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.surface-pro .vector-2 {
+  left: 1327px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 24px;
+}
+
+.surface-pro .vector-3 {
+  left: 79px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 24px;
+}
+
+.surface-pro .nav {
+  position: absolute;
+  width: 1440px;
+  height: 163px;
+  top: 0;
+  left: 0;
+  background-color: #fff7f0;
+}
+
+.surface-pro .overlap-group {
+  position: absolute;
+  width: 1238px;
+  height: 146px;
+  top: 14px;
+  left: 29px;
+}
+
+.surface-pro .overlap-group-2 {
+  position: absolute;
+  width: 1238px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.surface-pro .line {
+  position: absolute;
+  width: 870px;
+  height: 94px;
+  top: 23px;
+  left: 368px;
+}
+
+.surface-pro .AR-VR-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 1074px;
+}
+
+.surface-pro .AR-VR {
+  position: absolute;
+  width: 112px;
+  height: 83px;
+  top: 5px;
+  left: 2px;
+}
+
+.surface-pro .map-jpg {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 24px;
+  left: 723px;
+}
+
+.surface-pro .donate-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 891px;
+  overflow: hidden;
+}
+
+.surface-pro .donate {
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  top: 5px;
+  left: -1px;
+}
+
+.surface-pro .chat-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 523px;
+}
+
+.surface-pro .chat {
+  position: absolute;
+  width: 105px;
+  height: 75px;
+  top: 9px;
+  left: 5px;
+}
+
+.surface-pro .vector-4 {
+  position: absolute;
+  width: 1px;
+  height: 94px;
+  top: 23px;
+  left: 412px;
+}
+
+.surface-pro .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+  top: 23px;
+  left: 115px;
+}
+
+.surface-pro .text-i {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #4c3c3c;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3.15px;
+  line-height: 45px;
+}
+
+.surface-pro .span {
+  letter-spacing: 1.1px;
+}
+
+.surface-pro .logo {
+  position: absolute;
+  width: 157px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.surface-pro .AR-VR-2 {
+  height: 27px;
+  top: 117px;
+  left: 1096px;
+  position: absolute;
+  width: 85px;
+}
+
+.surface-pro .text-wrapper-2 {
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+  position: absolute;
+  width: 85px;
+}
+
+.surface-pro .view-2 {
+  position: absolute;
+  width: 51px;
+  height: 29px;
+  top: 117px;
+  left: 931px;
+}
+
+.surface-pro .text-wrapper-3 {
+  position: absolute;
+  width: 51px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.surface-pro .view-3 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 723px;
+}
+
+.surface-pro .view-4 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 537px;
+}
+
+.surface-pro .user-jpg {
+  position: absolute;
+  width: 83px;
+  height: 93px;
+  top: 37px;
+  left: 1301px;
+}
+
+.surface-pro .view-5 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 131px;
+  left: 1301px;
+}
+
+.surface-pro .logo-2 {
+  position: fixed;
+  width: 157px;
+  height: 142px;
+  top: 9px;
+  left: 29px;
+}
