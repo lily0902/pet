@@ -825,3 +825,11 @@
   top: 131px;
   left: 1301px;
 }
+
+a{
+  text-decoration: none;
+}
+
+button{
+  border: none;
+}
