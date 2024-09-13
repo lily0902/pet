@@ -1,3 +1,6 @@
+*{
+  background-color: ;
+}
 .frame {
   display: flex;
   flex-direction: column;

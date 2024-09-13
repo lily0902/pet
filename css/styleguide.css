@@ -72,6 +72,7 @@
   --font-family-staatliches: "Staatliches", Helvetica;
   --font-family-zen_dots-regular: "Zen Dots-Regular", Helvetica;
   --font-family-zen_maru_gothic: "Zen Maru Gothic", Helvetica;
+  
 }
 .m3labelmedium---prominent {
   font-family: var(--font-family-roboto-semibold);
