@@ -416,7 +416,7 @@
 
 .adopt-post .view-5 {
   position: absolute;
-  width: 228px;
+  width: 235px;
   height: 66px;
   top: 8px;
   left: 15px;
@@ -594,7 +594,7 @@
 .adopt-post .text-wrapper-7 {
   position: absolute;
   top: 18px;
-  left: 69px;
+  left:80px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #595959e0;
@@ -706,7 +706,23 @@
   font-weight: 400;
   color: #59595999;
   font-size: 28px;
-  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.label-text-wrapper2{
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border: none;
+  background: none;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #59595999;
+  font-size: 28px;
   letter-spacing: 0.5px;
   line-height: 24px;
   white-space: nowrap;
@@ -835,19 +851,6 @@
   line-height: normal;
 }
 
-.adopt-post .nav {
-  position: fixed;
-  width: 1444px;
-  height: 185px;
-  top: -7px;
-  left: -2px;
-  background-color: #fff7f0;
-  border: 2px solid;
-  border-color: #c7c3c3;
-  backdrop-filter: blur(30px) brightness(100%);
-  -webkit-backdrop-filter: blur(30px) brightness(100%);
-}
-
 .adopt-post .overlap-10 {
   position: absolute;
   width: 1238px;
@@ -957,19 +960,6 @@
   left: 1096px;
 }
 
-.adopt-post .text-wrapper-19 {
-  position: absolute;
-  width: 85px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #4c3c3ccc;
-  font-size: 20px;
-  letter-spacing: 1.6px;
-  line-height: normal;
-}
-
 .adopt-post .view-8 {
   position: absolute;
   width: 51px;
@@ -1021,4 +1011,8 @@
   height: 27px;
   top: 131px;
   left: 1301px;
+}
+
+button{
+  border: none;
 }
