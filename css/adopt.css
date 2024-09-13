@@ -684,6 +684,19 @@
   left: 1508px;
 }
 
+.adopt .nav {
+  position: fixed;
+  width: 1444px;
+  height: 185px;
+  top: -7px;
+  left: -2px;
+  background-color: #fff7f0;
+  border: 2px solid;
+  border-color: #c7c3c3;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
 .adopt .overlap-6 {
   position: absolute;
   width: 1238px;
@@ -793,6 +806,18 @@
   left: 1096px;
 }
 
+.adopt .text-wrapper-15 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
 
 .adopt .view-7 {
   position: absolute;
@@ -800,6 +825,19 @@
   height: 29px;
   top: 117px;
   left: 931px;
+}
+
+.adopt .text-wrapper-16 {
+  position: absolute;
+  width: 51px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
 }
 
 .adopt .view-8 {
