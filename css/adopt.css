@@ -250,7 +250,7 @@
 .adopt .vector {
   position: absolute;
   width: 1242px;
-  height: 1px;
+  height: 3px;
   top: 582px;
   left: 466px;
 }
@@ -303,16 +303,6 @@
   border-color: #595959e0;
 }
 
-.adopt .heart {
-  position: absolute;
-  width: 106px;
-  height: 103px;
-  top: 446px;
-  left: 596px;
-  background-image: url(./img/heart-1-1.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
 
 .adopt .text {
   position: absolute;
@@ -336,11 +326,12 @@
   left: 0;
   background-color: #faa85266;
   border-radius: 25px;
+  border: none;
 }
 
 .adopt .text-wrapper-5 {
   position: absolute;
-  top: 16px;
+  top: 12px;
   left: 77px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
@@ -349,6 +340,11 @@
   letter-spacing: 3.2px;
   line-height: normal;
   white-space: nowrap;
+  text-align: center;
+}
+
+.adopt .text-wrapper-5:hover {
+  color: #FFFFFF;
 }
 
 .adopt .x {
@@ -358,6 +354,15 @@
   top: 444px;
   left: 56px;
 }
+
+.adopt .like {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 450px;
+  right: 82px;
+}
+
 
 .adopt .text-wrapper-6 {
   position: absolute;
@@ -532,7 +537,7 @@
   position: absolute;
   width: 163px;
   height: 60px;
-  top: 181px;
+  top: 195px;
   left: 309px;
   font-family: "Sriracha", Helvetica;
   font-weight: 400;
@@ -554,7 +559,7 @@
 
 .adopt .line {
   position: absolute;
-  width: 1px;
+  width: 4px;
   height: 78px;
   top: 2px;
   left: 1483px;
@@ -602,7 +607,7 @@
   height: 80px;
   align-items: flex-start;
   position: absolute;
-  top: 0;
+  top: -5px;
   left: 470px;
   border-radius: 40px;
 }
@@ -657,7 +662,7 @@
   font-weight: 400;
   color: #61616199;
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.5px;
   line-height: 24px;
   white-space: nowrap;
@@ -833,3 +838,4 @@
   top: 131px;
   left: 1301px;
 }
+
