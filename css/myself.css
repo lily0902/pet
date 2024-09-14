@@ -1,3 +1,4 @@
+
 .frame {
   display: flex;
   flex-direction: column;
@@ -255,6 +256,14 @@
   background-color: #fdf3e9;
 }
 
+.frame .nav {
+  position: absolute;
+  width: 1440px;
+  height: 181px;
+  top: 6px;
+  left: 0;
+  background-color: #fff7f0;
+}
 
 .frame .overlap-5 {
   position: absolute;
@@ -389,6 +398,18 @@
   left: 1096px;
 }
 
+.frame .text-wrapper-6 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
 
 .frame .view {
   position: absolute;
