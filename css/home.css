@@ -514,6 +514,10 @@
   line-height: normal;
 }
 
+.home .text-wrapper-11:hover {
+  color: #FFFFFF;
+}
+
 .home .cat {
   position: absolute;
   width: 638px;

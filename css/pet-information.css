@@ -1,874 +1,813 @@
-/* screen - pet-information */
-
 .pet-information {
-  align-items: flex-start;
   background-color: #fff7f0;
   display: flex;
-  height: 2947px;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.pet-information .div {
+  background-color: #fff7f0;
   overflow: hidden;
   width: 1440px;
-}
-
-.pet-information .overlap-group6 {
-  height: 2774px;
-  margin-left: -370px;
-  margin-top: 271px;
+  height: 3038px;
   position: relative;
-  width: 2290px;
-  z-index: 1;
 }
 
-.pet-information .shape2 {
-  height: 681px;
-  left: 0;
+.pet-information .overlap {
   position: absolute;
-  top: 2093px;
   width: 2290px;
+  height: 768px;
+  top: 2368px;
+  left: -370px;
+}
+
+.pet-information .shape {
+  position: absolute;
+  width: 2290px;
+  height: 681px;
+  top: 87px;
+  left: 0;
 }
 
 .pet-information .footer {
-  align-items: flex-start;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 58px;
-  height: auto;
-  justify-content: flex-start;
-  left: 0;
-  min-height: 681px;
-  padding: 53.6px 466.3px;
   position: absolute;
-  top: 2006px;
   width: 2290px;
-}
-
-.pet-information .flex-row {
-  align-items: flex-start;
-  display: flex;
-  gap: 67px;
-  margin-left: 26.0px;
-  margin-top: 126px;
-  min-width: 1214px;
-}
-
-.pet-information .flex-row-1 {
-  align-items: flex-end;
-  display: flex;
-  gap: 62px;
-  height: 345px;
-  min-width: 860px;
-}
-
-.pet-information .overlap-group-container {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
-  margin-bottom: 4.0px;
-  min-height: 290px;
-  width: 533px;
-}
-
-.pet-information .overlap-group1 {
-  height: 142px;
-  position: relative;
-  width: 390px;
-}
-
-.pet-information .flex-container-i13886985181465 {
-  left: 124px;
-  top: 35px;
-}
-
-.pet-information .text {
-  align-self: stretch;
-  letter-spacing: 3.15px;
-  line-height: 45px;
-  position: relative;
-  text-align: center;
-  text-shadow: 0px 4px 4px #00000040;
-}
-
-.pet-information .span {
-  letter-spacing: 1.10px;
-}
-
-.pet-information .logo {
-  height: 142px;
-  left: 0;
-  position: absolute;
+  height: 681px;
   top: 0;
-  width: 157px;
+  left: 0;
+  background-color: transparent;
 }
 
-.pet-information .mail-container {
-  align-items: flex-start;
-  background-color: #ffffff80;
-  border-radius: 20px;
-  display: flex;
-  gap: 18px;
-  height: 78px;
-  justify-content: flex-end;
-  margin-left: 0;
-  min-width: 533px;
-  padding: 15.0px 19.0px;
-}
-
-.pet-information .mail {
-  height: 47px;
-  width: 47px;
-}
-
-.pet-information .rekindlepetlovegmailcom {
-  align-self: center;
-  color: var(--chicago);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
-  font-weight: 500;
-  letter-spacing: 2.24px;
-  line-height: normal;
-  margin-bottom: 4.0px;
-  min-height: 34px;
-  min-width: 425px;
-}
-
-.pet-information .flex-col {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 345px;
-  width: 265px;
-}
-
-.pet-information .services {
-  color: #87746e;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxl);
-  font-weight: 700;
-  letter-spacing: 4.20px;
-  line-height: 44px;
-  margin-right: 2.0px;
-  text-align: center;
-  width: 175px;
-}
-
-.pet-information .view {
-  display: flex;
-  height: 44px;
-  margin-right: 1.0px;
-  margin-top: 39px;
-  width: 212px;
-}
-
-.pet-information .text-5 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 212px;
-}
-
-.pet-information .x {
-  display: flex;
-  height: 44px;
-  margin-top: 29px;
-  width: 265px;
-}
-
-.pet-information .text-4 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 265px;
-}
-
-.pet-information .view-1 {
-  display: flex;
-  height: 44px;
-  margin-right: 3.0px;
-  margin-top: 28px;
-  width: 212px;
-}
-
-.pet-information .text-3 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 212px;
-}
-
-.pet-information .view-2 {
-  display: flex;
-  height: 44px;
-  margin-right: 1.0px;
-  margin-top: 29px;
-  width: 212px;
-}
-
-.pet-information .text-2 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 212px;
-}
-
-.pet-information .flex-col-1 {
-  align-items: center;
-  min-height: 200px;
-  width: 287px;
-}
-
-.pet-information .quick-links {
-  color: #88746e;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxl);
-  font-weight: 700;
-  letter-spacing: 4.20px;
-  line-height: 44px;
-  text-align: center;
-  width: 287px;
-}
-
-.pet-information .text-1 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 212px;
-}
-
-.pet-information .arvr {
-  display: flex;
-  height: 44px;
-  margin-right: 1.0px;
-  margin-top: 29px;
-  width: 212px;
-}
-
-.pet-information .arvr-1 {
-  flex: 1;
-  letter-spacing: 3.60px;
-  line-height: 44px;
-  text-align: center;
-  width: 212px;
-}
-
-.pet-information .flex-col-2 {
-  align-items: center;
-  gap: 21px;
-  min-height: 46px;
-  width: 1242px;
-}
-
-.pet-information .vector-6 {
-  height: 1px;
-  width: 1242px;
-}
-
-.pet-information .copyright {
+.pet-information .text-wrapper {
+  position: absolute;
+  top: 603px;
+  left: 824px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
   color: #484848;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
-  font-weight: 400;
-  letter-spacing: 1.00px;
+  font-size: 20px;
+  letter-spacing: 1px;
   line-height: normal;
-  margin-left: 52.5px;
-  min-height: 24px;
-  min-width: 578px;
   white-space: nowrap;
-}
-
-.pet-information .rectangle-1 {
-  background-color: #fffefe;
-  border: 3px solid;
-  border-color: #fae5ce;
-  border-radius: 20px;
-  height: 2026px;
-  left: 476px;
-  position: absolute;
-  top: 0;
-  width: 1228px;
-}
-
-.pet-information .view-3 {
-  align-items: flex-start;
-  display: flex;
-  height: 74px;
-  left: 1228px;
-  min-width: 377px;
-  position: absolute;
-  top: 1874px;
-}
-
-.pet-information .overlap-group2 {
-  height: 74px;
-  position: relative;
-  width: 377px;
-}
-
-.pet-information .rectangle-32 {
-  background-color: var(--negroni);
-  border-radius: 30px;
-  height: 66px;
-  left: 14px;
-  position: absolute;
-  top: 8px;
-  width: 363px;
-}
-
-.pet-information .text-6 {
-  color: var(--chicago-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
-  font-weight: 700;
-  left: 99px;
-  letter-spacing: 3.15px;
-  line-height: 45px;
-  position: absolute;
-  text-align: center;
-  top: 17px;
-  white-space: nowrap;
-}
-
-.pet-information .dog-1 {
-  height: 73px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 73px;
-}
-
-.pet-information .text-7 {
-  color: var(--chicago);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
-  font-weight: 500;
-  left: 583px;
-  letter-spacing: 6.00px;
-  line-height: normal;
-  position: absolute;
-  top: 1590px;
-  width: 1024px;
-}
-
-.pet-information .phone {
-  height: 80px;
-  left: 1509px;
-  position: absolute;
-  top: 1468px;
-  width: 80px;
-}
-
-.pet-information .text-8 {
-  color: var(--chicago);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxxl);
-  font-weight: 700;
-  left: 749px;
-  letter-spacing: 6.60px;
-  line-height: normal;
-  position: absolute;
-  top: 1474px;
-}
-
-.pet-information .pet-friendly-1 {
-  height: 120px;
-  left: 583px;
-  object-fit: cover;
-  position: absolute;
-  top: 1437px;
-  width: 120px;
-}
-
-.pet-information .rectangle-31 {
-  background-color: var(--early-dawn);
-  border-radius: 22px;
-  height: 269px;
-  left: 1303px;
-  position: absolute;
-  top: 1120px;
-  width: 302px;
-}
-
-.pet-information .rectangle-30 {
-  background-color: var(--early-dawn);
-  border-radius: 22px;
-  height: 269px;
-  left: 942px;
-  position: absolute;
-  top: 1120px;
-  width: 303px;
-}
-
-.pet-information .rectangle-29 {
-  background-color: var(--early-dawn);
-  border-radius: 22px;
-  height: 269px;
-  left: 582px;
-  position: absolute;
-  top: 1120px;
-  width: 302px;
-}
-
-.pet-information .text-9 {
-  left: 1409px;
-  letter-spacing: 3.52px;
-  line-height: normal;
-  position: absolute;
-  top: 1271px;
-}
-
-.pet-information .line-15 {
-  left: 1366px;
-}
-
-.pet-information .text-10 {
-  left: 1406px;
-  letter-spacing: 6.60px;
-  line-height: normal;
-  position: absolute;
-  top: 1165px;
-}
-
-.pet-information .text-11 {
-  left: 1024px;
-  letter-spacing: 3.52px;
-  line-height: normal;
-  position: absolute;
-  top: 1271px;
-}
-
-.pet-information .line-14 {
-  left: 1007px;
-}
-
-.pet-information .text-12 {
-  left: 1046px;
-  letter-spacing: 6.60px;
-  line-height: normal;
-  position: absolute;
-  top: 1165px;
-}
-
-.pet-information .text-13 {
-  left: 640px;
-  letter-spacing: 3.52px;
-  line-height: normal;
-  position: absolute;
-  top: 1271px;
-}
-
-.pet-information .line-13 {
-  left: 646px;
-}
-
-.pet-information .text-14 {
-  left: 685px;
-  letter-spacing: 6.60px;
-  line-height: normal;
-  position: absolute;
-  top: 1164px;
-}
-
-.pet-information .text-15 {
-  color: var(--chicago);
-  font-family: var(--font-family-inter);
-  font-size: 48px;
-  font-weight: 500;
-  left: 661px;
-  letter-spacing: 7.20px;
-  line-height: normal;
-  position: absolute;
-  top: 1008px;
-}
-
-.pet-information .map-pin {
-  height: 77px;
-  left: 566px;
-  position: absolute;
-  top: 996px;
-  width: 77px;
-}
-
-.pet-information .heart-3-1 {
-  height: 80px;
-  left: 1502px;
-  object-fit: cover;
-  position: absolute;
-  top: 906px;
-  width: 80px;
-}
-
-.pet-information .name {
-  color: var(--chicago-2);
-  font-family: var(--font-family-sriracha);
-  font-size: 64px;
-  font-weight: 400;
-  height: 101px;
-  left: 539px;
-  letter-spacing: 3.00px;
-  line-height: 24px;
-  position: absolute;
-  text-align: center;
-  top: 894px;
-  width: 274px;
-}
-
-.pet-information .circle {
-  align-items: flex-start;
-  display: flex;
-  gap: 25px;
-  height: 21px;
-  left: 1055px;
-  min-width: 69px;
-  position: absolute;
-  top: 847px;
-}
-
-.pet-information .ellipse-2 {
-  background-color: #faa852b2;
-}
-
-.pet-information .ellipse-3 {
-  background-color: #d9d9d9;
-}
-
-.pet-information .buddy-photos::-webkit-scrollbar {
-  display: none;
-  width: 0;
-}
-
-.pet-information .buddy-photos {
-  align-items: center;
-  display: flex;
-  gap: 125px;
-  left: 564px;
-  overflow: hidden;
-  overflow-x: scroll;
-  position: absolute;
-  top: 216px;
-  width: 1056px;
-}
-
-.pet-information .rectangle-2 {
-  height: 589px;
-  position: relative;
-  width: 1056px;
-}
-
-.pet-information .overlap-group3 {
-  align-items: center;
-  background-color: var(--negroni);
-  border-radius: 6px;
-  display: flex;
-  height: 92px;
-  justify-content: flex-end;
-  left: 906px;
-  min-width: 368px;
-  padding: 0 28px;
-  position: absolute;
-  top: 75px;
-}
-
-.pet-information .text-16 {
-  color: var(--chicago-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
-  font-weight: 700;
-  letter-spacing: 6.00px;
-  line-height: normal;
-  min-height: 48px;
-  width: 290px;
-}
-
-.pet-information .view-4 {
-  display: flex;
-  height: 66px;
-  left: 582px;
-  position: absolute;
-  top: 1883px;
-  width: 228px;
-}
-
-.pet-information .member-button {
-  align-items: flex-start;
-  display: flex;
-  flex: 1;
-  min-width: 228px;
 }
 
 .pet-information .overlap-group {
-  height: 74px;
-  margin-left: -15px;
-  margin-top: -8px;
-  position: relative;
-  width: 243px;
-}
-
-.pet-information .view-5 {
-  background-color: var(--negroni);
-  border-radius: 30px;
-  cursor: pointer;
-  height: 66px;
-  left: 15px;
   position: absolute;
-  top: 8px;
-  width: 228px;
+  width: 533px;
+  height: 78px;
+  top: 442px;
+  left: 492px;
+  background-size: 100% 100%;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  opacity: 0.8;
 }
 
-.pet-information .text_label {
-  color: var(--chicago-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
+.pet-information .text-wrapper-2 {
+  position: absolute;
+  top: 20px;
+  left: 89px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #595959;
+  font-size: 28px;
+  letter-spacing: 2.24px;
+  line-height: normal;
+}
+
+.pet-information .mail {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 15px;
+  left: 24px;
+}
+
+.pet-information .AR-VR {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 335px;
+  left: 1456px;
+}
+
+.pet-information .text-wrapper-3 {
+  position: absolute;
+  width: 212px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.pet-information .view {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1456px;
+}
+
+.pet-information .quick-links {
+  position: absolute;
+  width: 287px;
+  top: 179px;
+  left: 1419px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
-  left: 107px;
+  color: #88746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.pet-information .div-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 480px;
+  left: 1113px;
+}
+
+.pet-information .view-2 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 407px;
+  left: 1112px;
+}
+
+.pet-information .div-wrapper-2 {
+  position: absolute;
+  width: 265px;
+  height: 44px;
+  top: 335px;
+  left: 1087px;
+}
+
+.pet-information .text-wrapper-4 {
+  position: absolute;
+  width: 265px;
+  top: -1px;
+  left: 0;
+  font-family: "Staatliches", Helvetica;
+  font-weight: 400;
+  color: #a58c84;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 44px;
+}
+
+.pet-information .view-3 {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 262px;
+  left: 1113px;
+}
+
+.pet-information .services {
+  position: absolute;
+  width: 175px;
+  top: 179px;
+  left: 1131px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #87746e;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  line-height: 44px;
+}
+
+.pet-information .overlap-group-2 {
+  position: absolute;
+  width: 390px;
+  height: 142px;
+  top: 230px;
+  left: 492px;
+}
+
+.pet-information .flexcontainer {
+  top: 35px;
+  left: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  width: 266px;
+  height: 107px;
+}
+
+.pet-information .text-i {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #4c3c3c;
+  font-size: 35px;
+  text-align: center;
   letter-spacing: 3.15px;
   line-height: 45px;
+}
+
+.pet-information .span {
+  letter-spacing: 1.1px;
+}
+
+.pet-information .logo {
   position: absolute;
+  width: 157px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.pet-information .vector {
+  position: absolute;
+  width: 1242px;
+  height: 3px;
+  top: 582px;
+  left: 466px;
+}
+
+.pet-information .overlap-2 {
+  position: absolute;
+  width: 1228px;
+  height: 2026px;
+  top: 250px;
+  left: 106px;
+  background-color: #fffefe;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #fae5ce;
+}
+
+.pet-information .overlap-wrapper {
+  position: absolute;
+  width: 377px;
+  height: 74px;
+  top: 1871px;
+  left: 749px;
+}
+
+.pet-information .overlap-3 {
+  position: relative;
+  height: 74px;
+}
+
+.pet-information .rectangle {
+  position: absolute;
+  width: 363px;
+  height: 66px;
+  top: 20px;
+  left: 14px;
+  background-color: #fee3c8;
+  border-radius: 30px;
+}
+
+.pet-information .text-wrapper-5 {
+  position: absolute;
+  top: 32px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959e0;
+  font-size: 35px;
   text-align: center;
-  top: 18px;
+  letter-spacing: 3.15px;
+  line-height: 45px;
   white-space: nowrap;
 }
 
-.pet-information .nav {
-  -webkit-backdrop-filter: blur(30px) brightness(100%);
-  align-items: flex-start;
-  backdrop-filter: blur(30px) brightness(100%);
-  background-color: #fff7f0;
-  border: 2px solid;
-  border-color: #c7c3c3;
-  display: flex;
-  gap: 34px;
-  height: 185px;
-  left: -2px;
-  min-width: 1444px;
-  padding: 14px 29px;
-  position: fixed;
-  top: -7px;
-  z-index: 2;
+.pet-information .text-wrapper-5:hover {
+  color: #FFFFFF;
 }
 
-.pet-information .overlap-group5 {
-  height: 146px;
-  position: relative;
-  width: 1238px;
-}
-
-.pet-information .overlap-group4 {
-  height: 142px;
-  left: 0;
+.pet-information .dog {
   position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 12px;
+  left: 0;
+  object-fit: cover;
+}
+
+.pet-information .dog2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
   top: 0;
-  width: 1238px;
+  left: 0;
+  object-fit: cover;
+}
+
+.pet-information .text-wrapper-6 {
+  position: absolute;
+  width: 1024px;
+  top: 1587px;
+  left: 104px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #595959;
+  font-size: 40px;
+  letter-spacing: 6px;
+  line-height: normal;
+}
+
+.pet-information .phone {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 1465px;
+  left: 1030px;
+}
+
+.pet-information .text-wrapper-7 {
+  position: absolute;
+  top: 1471px;
+  left: 270px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959;
+  font-size: 44px;
+  letter-spacing: 6.6px;
+  line-height: normal;
+}
+
+.pet-information .pet-friendly {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 1434px;
+  left: 104px;
+  object-fit: cover;
+}
+
+.pet-information .overlap-4 {
+  position: absolute;
+  width: 302px;
+  height: 269px;
+  top: 1120px;
+  left: 827px;
+  background-color: #fff8e5;
+  border-radius: 22px;
+}
+
+.pet-information .text-wrapper-8 {
+  position: absolute;
+  top: 151px;
+  left: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ea9132cc;
+  font-size: 44px;
+  letter-spacing: 3.52px;
+  line-height: normal;
 }
 
 .pet-information .line {
-  height: 94px;
-  left: 368px;
+  left: 63px;
   position: absolute;
-  top: 23px;
-  width: 870px;
+  width: 175px;
+  height: 2px;
+  top: 109px;
 }
 
-.pet-information .arvr_jpg {
-  display: flex;
-  height: 93px;
-  left: 1074px;
+.pet-information .text-wrapper-9 {
   position: absolute;
-  top: 24px;
-  width: 114px;
-}
-
-.pet-information .arvr-2 {
-  height: 83px;
-  margin-left: 2px;
-  margin-top: 5px;
-  width: 112px;
-}
-
-.pet-information .map_jpg {
-  height: 84px;
-  left: 723px;
-  position: absolute;
-  top: 24px;
-  width: 84px;
-}
-
-.pet-information .donate_jpg {
-  display: flex;
-  height: 93px;
-  left: 891px;
-  overflow: hidden;
-  position: absolute;
-  top: 24px;
-  width: 114px;
-}
-
-.pet-information .donate {
-  height: 83px;
-  margin-left: -1px;
-  margin-top: 5px;
-  width: 117px;
-}
-
-.pet-information .chat_jpg {
-  display: flex;
-  height: 93px;
-  left: 523px;
-  position: absolute;
-  top: 24px;
-  width: 114px;
-}
-
-.pet-information .chat {
-  height: 75px;
-  margin-left: 5px;
-  margin-top: 9px;
-  width: 105px;
-}
-
-.pet-information .vector-1 {
-  height: 94px;
-  left: 412px;
-  position: absolute;
-  top: 23px;
-  width: 1px;
-}
-
-.pet-information .flex-container-i138870216129 {
-  cursor: pointer;
-  left: 115px;
-  top: 24px;
-}
-
-.pet-information .logo-1 {
-  cursor: pointer;
-  height: 142px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 157px;
-}
-
-.pet-information .arvr-3 {
-  display: flex;
-  height: 27px;
-  left: 1096px;
-  position: absolute;
-  top: 117px;
-  width: 85px;
-}
-
-.pet-information .arvr-4 {
-  flex: 1;
-  letter-spacing: 1.60px;
+  top: 45px;
+  left: 103px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #b96865cc;
+  font-size: 44px;
+  letter-spacing: 6.6px;
   line-height: normal;
-  width: 85px;
 }
 
-.pet-information .view-6 {
-  display: flex;
-  height: 29px;
-  left: 931px;
+.pet-information .overlap-5 {
   position: absolute;
-  top: 117px;
-  width: 51px;
+  width: 303px;
+  height: 269px;
+  top: 1120px;
+  left: 466px;
+  background-color: #fff8e5;
+  border-radius: 22px;
 }
 
-.pet-information .text-18 {
-  flex: 1;
-  letter-spacing: 1.60px;
-  line-height: normal;
-  width: 51px;
-}
-
-.pet-information .view-7 {
-  display: flex;
-  height: 27px;
-  left: 723px;
+.pet-information .text-wrapper-10 {
   position: absolute;
-  top: 117px;
-  width: 85px;
-}
-
-.pet-information .text-19 {
-  flex: 1;
-  letter-spacing: 1.60px;
+  top: 151px;
+  left: 82px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ea9132cc;
+  font-size: 44px;
+  letter-spacing: 3.52px;
   line-height: normal;
-  width: 85px;
 }
 
-.pet-information .view-8 {
-  display: flex;
-  height: 27px;
-  left: 537px;
+.pet-information .img {
+  left: 65px;
   position: absolute;
-  top: 117px;
-  width: 85px;
+  width: 175px;
+  height: 2px;
+  top: 109px;
 }
 
-.pet-information .text-20 {
-  flex: 1;
-  letter-spacing: 1.60px;
+.pet-information .text-wrapper-11 {
+  position: absolute;
+  top: 45px;
+  left: 104px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #b96865cc;
+  font-size: 44px;
+  letter-spacing: 6.6px;
   line-height: normal;
-  width: 85px;
 }
 
-.pet-information .flex-col-3 {
-  align-items: flex-start;
-  align-self: center;
-  gap: 1px;
-  margin-top: 10.0px;
-  min-height: 121px;
-  width: 85px;
+.pet-information .overlap-6 {
+  position: absolute;
+  width: 302px;
+  height: 269px;
+  top: 1120px;
+  left: 106px;
+  background-color: #fff8e5;
+  border-radius: 22px;
 }
 
-.pet-information .user_jpg {
-  height: 93px;
-  width: 83px;
-}
-
-.pet-information .view-9 {
-  display: flex;
-  height: 27px;
-  width: 85px;
-}
-
-.pet-information .text-17 {
-  flex: 1;
-  letter-spacing: 1.60px;
+.pet-information .text-wrapper-12 {
+  position: absolute;
+  top: 151px;
+  left: 58px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ea9132cc;
+  font-size: 44px;
+  letter-spacing: 3.52px;
   line-height: normal;
-  width: 85px;
+}
+
+.pet-information .line-2 {
+  left: 64px;
+  position: absolute;
+  width: 175px;
+  height: 2px;
+  top: 109px;
+}
+
+.pet-information .text-wrapper-13 {
+  position: absolute;
+  top: 44px;
+  left: 103px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #b96865cc;
+  font-size: 44px;
+  letter-spacing: 6.6px;
+  line-height: normal;
+}
+
+.pet-information .text-wrapper-14 {
+  position: absolute;
+  top: 1005px;
+  left: 182px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #595959;
+  font-size: 48px;
+  letter-spacing: 7.2px;
+  line-height: normal;
+}
+
+.pet-information .map-pin {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 993px;
+  left: 87px;
+}
+
+.pet-information .heart {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 903px;
+  left: 1023px;
+  object-fit: cover;
+}
+
+.pet-information .text-wrapper-15 {
+  position: absolute;
+  width: 274px;
+  height: 101px;
+  top: 891px;
+  left: 60px;
+  font-family: "Sriracha", Helvetica;
+  font-weight: 400;
+  color: #595959e0;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 24px;
+}
+
+.pet-information .circle {
+  position: absolute;
+  width: 69px;
+  height: 21px;
+  top: 844px;
+  left: 576px;
 }
 
 .pet-information .ellipse {
-  border-radius: 11px/10.5px;
-  height: 21px;
+  left: 0;
+  background-color: #faa852b2;
+  position: absolute;
   width: 22px;
+  height: 21px;
+  top: 0;
+  border-radius: 11px/10.5px;
 }
 
-.pet-information .flex-col-4 {
+.pet-information .ellipse-2 {
+  left: 47px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 0;
+  border-radius: 11px/10.5px;
+}
+
+.pet-information .buddy-photos {
+  display: flex;
+  width: 1056px;
+  align-items: center;
+  gap: 250px;
+  position: absolute;
+  top: 213px;
+  left: 85px;
+  overflow-x: scroll;
+}
+
+.pet-information .rectangle-2 {
+  position: relative;
+  width: 1056px;
+  height: 589px;
+}
+
+.pet-information .overlap-group-wrapper {
+  position: absolute;
+  width: 370px;
+  height: 92px;
+  top: 72px;
+  left: 427px;
+}
+
+.pet-information .overlap-7 {
+  position: relative;
+  width: 368px;
+  height: 92px;
+  background-color: #fee3c8;
+  border-radius: 6px;
+}
+
+.pet-information .text-wrapper-16 {
+  position: absolute;
+  width: 290px;
+  top: 22px;
+  left: 50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959e0;
+  font-size: 40px;
+  letter-spacing: 6px;
+  line-height: normal;
+}
+
+.pet-information .member-button-wrapper {
+  position: absolute;
+  width: 228px;
+  height: 66px;
+  top: 2140px;
+  left: 212px;
+}
+
+.pet-information .member-button {
+  height: 66px;
+}
+
+.pet-information .overlap-group-3 {
+  position: relative;
+  width: 243px;
+  height: 74px;
+  top: -8px;
+  left: -15px;
+}
+
+.pet-information .view-4 {
+  position: absolute;
+  width: 228px;
+  height: 66px;
+  top: 8px;
+  left: 15px;
+  background-color: #fee3c8;
+  border-radius: 30px;
+}
+
+.pet-information .text-wrapper-17 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #595959e0;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3.15px;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.pet-information .text-wrapper-17:hover {
+  color: #FFFFFF;
+}
+
+.pet-information .overlap-8 {
+  position: absolute;
+  width: 1238px;
+  height: 146px;
+  top: 14px;
+  left: 29px;
+}
+
+.pet-information .overlap-9 {
+  position: absolute;
+  width: 1238px;
+  height: 142px;
+  top: 0;
+  left: 0;
+}
+
+.pet-information .line-3 {
+  position: absolute;
+  width: 870px;
+  height: 94px;
+  top: 23px;
+  left: 368px;
+}
+
+.pet-information .AR-VR-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 1074px;
+}
+
+.pet-information .AR-VR-2 {
+  position: absolute;
+  width: 112px;
+  height: 83px;
+  top: 5px;
+  left: 2px;
+}
+
+.pet-information .map-jpg {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 24px;
+  left: 723px;
+}
+
+.pet-information .donate-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 891px;
+  overflow: hidden;
+}
+
+.pet-information .donate {
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  top: 5px;
+  left: -1px;
+}
+
+.pet-information .chat-jpg {
+  position: absolute;
+  width: 114px;
+  height: 93px;
+  top: 24px;
+  left: 523px;
+}
+
+.pet-information .chat {
+  position: absolute;
+  width: 105px;
+  height: 75px;
+  top: 9px;
+  left: 5px;
+}
+
+.pet-information .vector-2 {
+  position: absolute;
+  width: 1px;
+  height: 94px;
+  top: 23px;
+  left: 412px;
+}
+
+.pet-information .flexcontainer-i {
+  top: 23px;
+  left: 115px;
   display: flex;
   flex-direction: column;
-}
-
-.pet-information .flex-container {
   align-items: flex-start;
-  display: flex;
-  flex-direction: column;
   gap: 5px;
-  height: 107px;
   position: absolute;
   width: 266px;
+  height: 107px;
 }
 
-.pet-information .line-1 {
-  height: 1px;
+.pet-information .AR-VR-3 {
   position: absolute;
-  top: 1229px;
-  width: 175px;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 1096px;
+}
+
+.pet-information .view-5 {
+  position: absolute;
+  width: 51px;
+  height: 29px;
+  top: 117px;
+  left: 931px;
+}
+
+.pet-information .text-wrapper-19 {
+  position: absolute;
+  width: 51px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.pet-information .view-6 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 723px;
+}
+
+.pet-information .view-7 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 117px;
+  left: 537px;
+}
+
+.pet-information .user-jpg {
+  position: absolute;
+  width: 83px;
+  height: 93px;
+  top: 37px;
+  left: 1301px;
+}
+
+.pet-information .view-8 {
+  position: absolute;
+  width: 85px;
+  height: 27px;
+  top: 131px;
+  left: 1301px;
+}
+
+a{
+  text-decoration: none;
 }
