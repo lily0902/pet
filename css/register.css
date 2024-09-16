@@ -384,7 +384,6 @@
   height: 78px;
   top: 442px;
   left: 492px;
-  background-image: url(./img/rectangle-2-1.svg);
   background-size: 100% 100%;
 }
 
@@ -591,8 +590,8 @@
 
 .register .rectangle-2 {
   position: absolute;
-  width: 237px;
-  height: 287px;
+  width: 230px;
+  height: 260px;
   top: 224px;
   left: 27px;
 }

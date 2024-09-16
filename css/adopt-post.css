@@ -424,6 +424,10 @@
   white-space: nowrap;
 }
 
+.adopt-post .text-wrapper-6-2:hover {
+  color: #FFFFFF;
+}
+
 .adopt-post .dog {
   position: absolute;
   width: 73px;
@@ -589,6 +593,10 @@
   letter-spacing: 3.15px;
   line-height: 45px;
   white-space: nowrap;
+}
+
+.adopt-post .text-wrapper-7:hover {
+  color: #FFFFFF;
 }
 
 .adopt-post .inputs-shape {
