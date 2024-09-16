@@ -811,3 +811,11 @@
 a{
   text-decoration: none;
 }
+
+.pet-information .AR-VR-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 44px;
+  top: 408px;
+  left: 1456px;
+}

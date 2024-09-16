@@ -348,20 +348,6 @@
   border: 1px solid;
   border-color: #ebe1be;
 }
-
-.adopt-post .ellipse {
-  position: relative;
-  width: 2px;
-  height: 2px;
-  top: 11px;
-  left: 11px;
-  background-color: #f7d1aa;
-  border-radius: 1px;
-  border: 0.08px solid;
-  border-color: #ebe1be;
-  opacity: 0.3;
-}
-
 .adopt-post .pet {
   position: absolute;
   width: 205px;
@@ -424,7 +410,7 @@
   border-radius: 30px;
 }
 
-.adopt-post .text-wrapper-6 {
+.adopt-post .text-wrapper-6-2 {
   position: absolute;
   top: 18px;
   left: 107px;
@@ -620,7 +606,7 @@
 .adopt-post .text-wrapper-8 {
   position: absolute;
   top: 538px;
-  left: 351px;
+  left: 349px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #907c76;
@@ -652,7 +638,7 @@
 .adopt-post .text-wrapper-9 {
   position: absolute;
   top: 9px;
-  left: 186px;
+  left: 181px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #907c76;
@@ -1015,4 +1001,8 @@
 
 button{
   border: none;
+}
+
+a{
+  text-decoration: none;
 }

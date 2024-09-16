@@ -66,8 +66,10 @@
   height: 78px;
   top: 442px;
   left: 492px;
-  background-image: url(./img/rectangle-2.png);
   background-size: 100% 100%;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  opacity: 0.8;
 }
 
 .adopt .text-wrapper-2 {
@@ -537,7 +539,7 @@
   position: absolute;
   width: 163px;
   height: 60px;
-  top: 195px;
+  top: 200px;
   left: 309px;
   font-family: "Sriracha", Helvetica;
   font-weight: 400;
