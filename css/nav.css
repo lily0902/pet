@@ -24,6 +24,19 @@
   line-height: normal;
 }
 
+.password-2 .text-wrapper-8 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #4c3c3ccc;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
 .password .text-wrapper-8 {
   position: absolute;
   width: 87px;
@@ -115,6 +128,18 @@
     line-height: normal;
   }
   
+  .surface-pro .text-wrapper-2 {
+    position: absolute;
+    width: 87px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #4c3c3ccc;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+  }
 
  .nav {
     position: absolute;
