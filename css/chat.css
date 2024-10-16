@@ -283,16 +283,18 @@
 }
 
 .screen .overlap-4 {
-  position: relative;
+  position: absolute;
   width: 1023px;
-  height: 730px;
+  height: 109px;
+  top: 621px;
+  left: 0;
 }
 
 .screen .textspace {
   position: absolute;
   width: 1023px;
   height: 109px;
-  top: 621px;
+  top: 0;
   left: 0;
 }
 
@@ -322,7 +324,7 @@
   position: absolute;
   width: 1021px;
   height: 1px;
-  top: 621px;
+  top: 0;
   left: 0;
   object-fit: cover;
 }
@@ -330,25 +332,18 @@
 .screen .frame {
   position: absolute;
   width: 1020px;
-  height: 621px;
+  height: 620px;
   top: 0;
   left: 1px;
+  background-color: #ffffff;
   overflow-y: scroll;
+  overflow-x: clip;
 }
 
 .screen .overlap-5 {
   position: relative;
   width: 1020px;
   height: 620px;
-  background-color: #ffffff;
-}
-
-.screen .rectangle {
-  position: absolute;
-  width: 1020px;
-  height: 620px;
-  top: 0;
-  left: 0;
   background-color: #ffffff;
 }
 
@@ -396,7 +391,7 @@
   position: relative;
   width: 202px;
   height: 50px;
-  background-image: url(./img/rectangle-15.png);
+  background-image: url(../img/textb-1.png);
   background-size: 100% 100%;
 }
 
@@ -427,7 +422,7 @@
   position: relative;
   width: 95px;
   height: 50px;
-  background-image: url(./img/rectangle-15-1.png);
+  background-image: url(../img/textb-2.png);
   background-size: 100% 100%;
 }
 
@@ -580,14 +575,15 @@
 
 .screen .view-wrapper {
   position: absolute;
-  width: 420px;
+  width: 416px;
   height: 861px;
   top: 164px;
-  left: -4px;
+  left: 0;
 }
 
 .screen .view-6 {
   position: relative;
+  width: 420px;
   height: 262px;
   top: 3px;
   left: 3px;
